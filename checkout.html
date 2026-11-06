@@ -6,7 +6,7 @@
 <div class='two'><label>First name<input name='first' required autocomplete='given-name'></label><label>Last name<input name='last' required autocomplete='family-name'></label></div>
 <label>Address<input name='addr' required autocomplete='street-address'></label>
 <div class='two'><label>City<input name='city' required autocomplete='address-level2'></label><label>Postcode<input name='zip' required autocomplete='postal-code'></label></div>
-<label>Delivery<select name='ship'><option>Standard, 3 to 5 days</option><option>Express, 1 to 2 days</option></select></label>
+<label>Delivery<select name='ship' id='shipsel'><option value='standard'>Standard, 3 to 5 days</option><option value='express'>Express, 1 to 2 days (+$12)</option></select></label>
 <p class='note'>Demo store: we don’t take payment or ask for card details, and nothing is shipped.</p>
 <button class='btn acc full' type='submit' style='margin-top:1rem'>Place demo order</button></form>
 <aside class='sum'><h2>Your order</h2><div id='items'></div></aside></div></div>
