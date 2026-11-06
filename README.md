@@ -1,22 +1,19 @@
-# Portfolio
+# volt
 
-A five-page personal portfolio built with plain HTML, CSS and JavaScript. No build step.
+A demo electronics store built with plain HTML, CSS and JavaScript. No build step, no backend.
 
 ## Pages
 
 - `index.html` Home
-- `work.html` Projects with filters
-- `about.html` Story, experience and toolbox
-- `journal.html` Short notes
-- `contact.html` Enquiry form and FAQ
-- `404.html` Not-found page
+- `shop.html` Search, filter and sort
+- `product.html?id=aura-x` Product detail
+- `cart.html` Cart with promo code `VOLT10`
+- `checkout.html` Demo checkout, no payment taken
 
 ## Edit it
 
-- Colors and type live at the top of `style.css`.
-- Behavior (theme toggle, filters, form) lives in `main.js`.
-- Replace the placeholder name, projects and email in each page.
+Products live at the top of `app.js`. Colors and fonts live at the top of `style.css`. The cart is saved in the browser with localStorage.
 
-## Publish
+## Going live for real
 
-In the repo, open Settings, then Pages, and deploy from the `main` branch.
+This is a front end only. To take real orders you need a payment provider such as Stripe Checkout and a backend or a hosted store platform.
